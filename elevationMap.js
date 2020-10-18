@@ -5,7 +5,8 @@ function elevationMap(input) {
   let leftMaxElev = [];
   let rightMaxElev = [];
 
-  //initialize first value for leftMaxElev and last value for rightMaxElev
+  //initialize first value for leftMaxElev
+  //and last value for rightMaxElev
   leftMaxElev[0] = input[0];
   rightMaxElev[heights - 1] = input[heights - 1];
 
@@ -30,4 +31,4 @@ function elevationMap(input) {
 }
 
 let input = [1, 0, 2, 0, 0, 0, 0, 2];
-console.log(elevationMap(input));
+elevationMap(input);
