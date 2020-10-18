@@ -20,7 +20,7 @@ When thinking about how to solve this problem, I first thought about the problem
 
 What is key to remember in creating an algorithmic solution is that you have to find the smaller peak that would trap the water, and then subtract from it the elevation level you're currently at to calcuate the actual amount of water that would be trapped at the elevation level.
 
-![Visual Explanation of Logic](https://i.imgur.com/C8tnnsm.png)
+![Visual Explanation of Logic](https://i.imgur.com/jdhn0XA.png)
 
 ## RunTime and Space Complexity
 
