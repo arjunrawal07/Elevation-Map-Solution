@@ -26,7 +26,7 @@ What is key to remember in creating an algorithmic solution is that you have to 
 
 * Run Time for this solution is O(n)
    * Storing the maximum possible amount of water that could betrapped (or height values) in both directions requires 2 iterations of O(n) each.
-   * We also update the `amtOfWater` value using the values stored in this variable in O(n) time
+   * We also update the `amtOfWater` by adding to the value stored in this variable in O(n) time - updating the variable once for every value in the `input`.
 
 * Space complexity: We also use O(n) space for this solution.
    * We create 2 additional arrays for `leftMaxElev` and `rightMaxElev`, which represent the potential amount of water that could be trapped at any elevation value in the input from either direction (L to R, R to L). Each array, or additional storage, is the same size. So, the space complexity is O(n).
